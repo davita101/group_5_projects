@@ -70,8 +70,6 @@ function handleAdd() {
             { newX: newX },
             { oldY: oldY },
             { oldX: oldX },
-
-
             { clientY: e.clientX })
         oldX = e.clientX
         oldY = e.clientY
