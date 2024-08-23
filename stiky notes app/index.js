@@ -47,14 +47,6 @@ function handleAdd() {
         document.addEventListener("mousemove", mouseMove)
         document.addEventListener("mouseup", mouseUp)
 
-        const mainBoxAll = document.querySelectorAll(".box")
-
-        for (let i = 0; i < mainBoxAll.length; i++) {
-            mainBoxAll[i].style.zIndex = 0
-        }
-
-        // Update z-index to bring the current box to the front
-        mainBox.style.zIndex = 999
     }
 
     function mouseMove(e) {
